@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-1-18 11:31:09 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.wanpishu.gameserver.db.User" table="bubble_user">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />            
+        </id>
+        <property name="nickname" type="java.lang.String">
+            <column name="nickname" />
+        </property>
+        <property name="sex" type="java.lang.Byte">
+            <column name="sex" />
+        </property>
+        <property name="place" type="java.lang.String">
+            <column name="place" />
+        </property>
+        <property name="coin" type="java.lang.Integer">
+            <column name="coin" />
+        </property>
+        <property name="gold" type="java.lang.Integer">
+            <column name="gold" />
+        </property>
+        <property name="bomb" type="java.lang.Integer">
+            <column name="bomb" />
+        </property>
+        <property name="wave" type="java.lang.Integer">
+            <column name="wave" />
+        </property>
+        <property name="shield" type="java.lang.Integer">
+            <column name="shield" />
+        </property>
+        <property name="stop" type="java.lang.Integer">
+            <column name="stop" />
+        </property>
+        <property name="win" type="java.lang.Integer">
+            <column name="win" />
+        </property>
+        <property name="lose" type="java.lang.Integer">
+            <column name="lose" />
+        </property>
+        <property name="buyTip" type="java.lang.Byte">
+            <column name="buy_tip" />
+        </property>
+        <property name="maxScore" type="java.lang.Integer">
+            <column name="max_score" />
+        </property>
+        <property name="blockBubbles" type="java.lang.String">
+			<column name="block_bubbles" />
+        </property>        
+        <property name="chapters" type="java.lang.String">
+			<column name="chapters" />
+        </property>
+    </class>
+</hibernate-mapping>

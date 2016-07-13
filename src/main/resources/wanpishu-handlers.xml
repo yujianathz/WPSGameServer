@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="handler1" class="com.wanpishu.gameserver.handler.Handler1" singleton="true"></bean>
+	<bean id="handler2" class="com.wanpishu.gameserver.handler.Handler2" singleton="true"></bean>
+	<bean id="handler3" class="com.wanpishu.gameserver.handler.Handler3" singleton="true"></bean>
+	<bean id="handler4" class="com.wanpishu.gameserver.handler.Handler4" singleton="true"></bean>
+	<bean id="handler5" class="com.wanpishu.gameserver.handler.Handler5" singleton="true"></bean>
+	<bean id="handler6" class="com.wanpishu.gameserver.handler.Handler6" singleton="true"></bean>
+	<bean id="handler7" class="com.wanpishu.gameserver.handler.Handler7" singleton="true"></bean>
+	<bean id="handler8" class="com.wanpishu.gameserver.handler.Handler8" singleton="true"></bean>
+	<bean id="handler9" class="com.wanpishu.gameserver.handler.Handler9" singleton="true"></bean>
+	<bean id="handler10" class="com.wanpishu.gameserver.handler.Handler10" singleton="true"></bean>
+	<bean id="handler11" class="com.wanpishu.gameserver.handler.Handler11" singleton="true"></bean>
+	<bean id="handler12" class="com.wanpishu.gameserver.handler.Handler12" singleton="true"></bean>
+	<bean id="handler13" class="com.wanpishu.gameserver.handler.Handler13" singleton="true"></bean>
+	<bean id="handler14" class="com.wanpishu.gameserver.handler.Handler14" singleton="true"></bean>
+</beans>
